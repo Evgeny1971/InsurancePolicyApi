@@ -23,14 +23,14 @@ namespace InsuranceApiManagement.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> CreateInsuranceUser([FromBody] InsuranceUser model)
         {
-            var policyExists = await _iInsuranceUserService.GetInsuranceUserById(model.ID);
-            if (policyExists != null)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Insurance Policy already exists!" });
+            var userExists = await _iInsuranceUserService.GetInsuranceUserById(model.ID);
+            if (userExists != null)
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Insurance user already exists!" });
             var result = await _iInsuranceUserService.CreateInsuranceUser(model);
             if (result == null)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Insurance Policy creation failed! Please check details and try again." });
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Insurance user creation failed! Please check details and try again." });
 
-            return Ok(new Response { Status = "Success", Message = "Insurance Policy created successfully!" });
+            return Ok(new Response { Status = "Success", Message = "Insurance user created successfully!" });
 
         }
 
@@ -39,16 +39,16 @@ namespace InsuranceApiManagement.Controllers
         [Route("update-user")]
         public async Task<IActionResult> UpdateInsuranceUser([FromBody] InsuranceUserViewModel model)
         {
-            var policy = await _iInsuranceUserService.UpdateInsuranceUser(model);
-            if (policy == null)
+            var user = await _iInsuranceUserService.UpdateInsuranceUser(model);
+            if (user == null)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response
-                { Status = "Error", Message = $"Insurance Policy With Id = {model.ID} cannot be found" });
+                { Status = "Error", Message = $"Insurance user With Id = {model.ID} cannot be found" });
             }
             else
             {
                 var result = await _iInsuranceUserService.UpdateInsuranceUser(model);
-                return Ok(new Response { Status = "Success", Message = "Insurance Policy updated successfully!" });
+                return Ok(new Response { Status = "Success", Message = "Insurance user updated successfully!" });
             }
         }
 
@@ -56,16 +56,16 @@ namespace InsuranceApiManagement.Controllers
         [Route("delete-user")]
         public async Task<IActionResult> DeleteInsuranceUser(long id)
         {
-            var policy = await _iInsuranceUserService.GetInsuranceUserById(id);
-            if (policy == null)
+            var user = await _iInsuranceUserService.GetInsuranceUserById(id);
+            if (user == null)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response
-                { Status = "Error", Message = $"Insurance Policy With Id = {id} cannot be found" });
+                { Status = "Error", Message = $"Insurance user With Id = {id} cannot be found" });
             }
             else
             {
                 var result = await _iInsuranceUserService.DeleteInsuranceUserById(id);
-                return Ok(new Response { Status = "Success", Message = "Insurance policy deleted successfully!" });
+                return Ok(new Response { Status = "Success", Message = "Insurance user deleted successfully!" });
             }
         }
 
@@ -74,15 +74,15 @@ namespace InsuranceApiManagement.Controllers
         [Route("get-user-by-id")]
         public async Task<IActionResult> GetInsuranceUserById(long id)
         {
-            var policy = await _iInsuranceUserService.GetInsuranceUserById(id);
-            if (policy == null)
+            var user = await _iInsuranceUserService.GetInsuranceUserById(id);
+            if (user == null)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response
-                { Status = "Error", Message = $"Insurance Policy With Id = {id} cannot be found" });
+                { Status = "Error", Message = $"Insurance user With Id = {id} cannot be found" });
             }
             else
             {
-                return Ok(policy);
+                return Ok(user);
             }
         }
 
