@@ -1,0 +1,17 @@
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/bin/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.deps.json
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/bin/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.runtimeconfig.json
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/bin/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.runtimeconfig.dev.json
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/bin/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.dll
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/bin/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.pdb
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/bin/Debug/netcoreapp3.1/InsuranceApiManagement.Entities.dll
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/bin/Debug/netcoreapp3.1/InsuranceApiManagement.Entities.pdb
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.csproj.AssemblyReference.cache
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.AssemblyInfoInputs.cache
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.AssemblyInfo.cs
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.csproj.CoreCompileInputs.cache
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.sourcelink.json
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.csproj.CopyComplete
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.dll
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.pdb
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.DataLayer/obj/Debug/netcoreapp3.1/InsuranceApiManagement.DataLayer.genruntimeconfig.cache
