@@ -13,9 +13,9 @@ namespace InsuranceApiManagement.Controllers
     public class InsurancePolicyController : ControllerBase //, IInsurancePolicyService
     {
         private readonly IInsurancePolicyService _iInsurancePolicyService;
-        public InsurancePolicyController(IInsurancePolicyService InsuranceApiService)
+        public InsurancePolicyController(IInsurancePolicyService insurancePolicyService)
         {
-            _iInsurancePolicyService = InsuranceApiService;
+            _iInsurancePolicyService = insurancePolicyService;
         }
 
         [HttpPost]
