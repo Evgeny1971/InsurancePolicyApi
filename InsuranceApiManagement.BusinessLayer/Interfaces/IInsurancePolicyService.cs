@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InsuranceApiManagement.BusinessLayer.Interfaces
 {
-    public interface IInsuranceApiService
+    public interface IInsurancePolicyService
     {
         List<InsurancePolicy> GetAllInsurancePolicies();
         Task<InsurancePolicy> CreateInsurancePolicy(InsurancePolicy insurancePolicy);

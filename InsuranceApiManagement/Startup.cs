@@ -36,8 +36,11 @@ namespace InsuranceApiManagement
                 services.AddControllers();
                 services.AddHttpClient();
                 services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-                services.AddScoped<IInsuranceApiRepository, InsuranceApiRepository>();
-                services.AddScoped<IInsuranceApiService, InsuranceApiService>();
+                services.AddScoped<IInsurancePolicyRepository, InsurancePolicyRepository>();
+                services.AddScoped<IInsurancePolicyService, InsurancePolicyService>();
+                services.AddScoped<IInsuranceUserRepository, InsuranceUserRepository>();
+                services.AddScoped<IInsuranceUserService, InsuranceUserService>();
+
                 services.AddCors(options =>
                 {
                     options.AddDefaultPolicy(builder =>

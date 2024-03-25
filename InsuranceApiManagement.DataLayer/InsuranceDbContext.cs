@@ -13,6 +13,8 @@ namespace InsuranceApiManagement.DataLayer
         }
 
         public DbSet<InsurancePolicy> InsurancePolicies { get; set; }
+        public DbSet<InsuranceUser> InsuranceUsers { get; set; }
+
     }
 
 }

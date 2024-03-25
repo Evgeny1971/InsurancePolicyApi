@@ -1,0 +1,15 @@
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/bin/Debug/net8.0/InsuranceApiManagement.Entities.deps.json
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/bin/Debug/net8.0/InsuranceApiManagement.Entities.runtimeconfig.json
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/bin/Debug/net8.0/InsuranceApiManagement.Entities.dll
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/bin/Debug/net8.0/InsuranceApiManagement.Entities.pdb
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/InsuranceApiManagement.Entities.csproj.AssemblyReference.cache
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/InsuranceApiManagement.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/InsuranceApiManagement.Entities.AssemblyInfoInputs.cache
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/InsuranceApiManagement.Entities.AssemblyInfo.cs
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/InsuranceApiManagement.Entities.csproj.CoreCompileInputs.cache
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/InsuranceApiManagement.Entities.sourcelink.json
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/InsuranceApiManagement.Entities.dll
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/refint/InsuranceApiManagement.Entities.dll
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/InsuranceApiManagement.Entities.pdb
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/InsuranceApiManagement.Entities.genruntimeconfig.cache
+/home/evgeny/Public/InsuranceApi/InsuranceApiManagement.Entities/obj/Debug/net8.0/ref/InsuranceApiManagement.Entities.dll
