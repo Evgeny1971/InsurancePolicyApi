@@ -45,7 +45,6 @@
 /home/evgeny/Public/InsuranceApi/InsuranceApiManagement/obj/Debug/net8.0/InsuranceApiManagement.csproj.CoreCompileInputs.cache
 /home/evgeny/Public/InsuranceApi/InsuranceApiManagement/obj/Debug/net8.0/InsuranceApiManagement.MvcApplicationPartsAssemblyInfo.cs
 /home/evgeny/Public/InsuranceApi/InsuranceApiManagement/obj/Debug/net8.0/InsuranceApiManagement.MvcApplicationPartsAssemblyInfo.cache
-/home/evgeny/Public/InsuranceApi/InsuranceApiManagement/obj/Debug/net8.0/InsuranceApiManagement.sourcelink.json
 /home/evgeny/Public/InsuranceApi/InsuranceApiManagement/obj/Debug/net8.0/staticwebassets.build.json
 /home/evgeny/Public/InsuranceApi/InsuranceApiManagement/obj/Debug/net8.0/staticwebassets.development.json
 /home/evgeny/Public/InsuranceApi/InsuranceApiManagement/obj/Debug/net8.0/staticwebassets/msbuild.InsuranceApiManagement.Microsoft.AspNetCore.StaticWebAssets.props

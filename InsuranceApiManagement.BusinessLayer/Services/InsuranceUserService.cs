@@ -11,36 +11,36 @@ namespace InsuranceApiManagement.BusinessLayer.Services
 {
     public class InsuranceUserService : IInsuranceUserService
     {
-        private readonly IInsuranceUserRepository _iInsuranceUserService;
+        private readonly IInsuranceUserRepository _iInsuranceUserRepository;
 
-        public InsuranceUserService(IInsuranceUserRepository InsuranceApiRepository)
+        public InsuranceUserService(IInsuranceUserRepository iInsuranceUserRepository)
         {
-            _iInsuranceUserService = InsuranceApiRepository;
+            _iInsuranceUserRepository = iInsuranceUserRepository;
         }
 
         public async Task<InsuranceUser> CreateInsuranceUser(InsuranceUser InsuranceUser)
         {
-            return await _iInsuranceUserService.CreateInsuranceUser(InsuranceUser);
+            return await _iInsuranceUserRepository.CreateInsuranceUser(InsuranceUser);
         }
 
         public async Task<bool> DeleteInsuranceUserById(long id)
         {
-            return await _iInsuranceUserService.DeleteInsuranceUserById(id);
+            return await _iInsuranceUserRepository.DeleteInsuranceUserById(id);
         }
 
         public List<InsuranceUser> GetAllInsuranceUsers()
         {
-            return _iInsuranceUserService.GetAllInsuranceUsers();
+            return _iInsuranceUserRepository.GetAllInsuranceUsers();
         }
 
         public async Task<InsuranceUser> GetInsuranceUserById(long id)
         {
-            return await _iInsuranceUserService.GetInsuranceUserById(id);
+            return await _iInsuranceUserRepository.GetInsuranceUserById(id);
         }
 
         public async Task<InsuranceUser> UpdateInsuranceUser(InsuranceUserViewModel model)
         {
-            return await _iInsuranceUserService.UpdateInsuranceUser(model);
+            return await _iInsuranceUserRepository.UpdateInsuranceUser(model);
         }
     }
 }

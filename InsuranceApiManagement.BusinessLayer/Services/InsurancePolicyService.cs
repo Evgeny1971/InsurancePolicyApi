@@ -11,11 +11,11 @@ namespace InsuranceApiManagement.BusinessLayer.Services
 {
     public class InsurancePolicyService : IInsurancePolicyService
     {
-        private readonly IInsurancePolicyService _iInsurancePolicyRepository;
+        private readonly IInsurancePolicyRepository _iInsurancePolicyRepository;
 
-        public InsurancePolicyService(IInsurancePolicyService InsurancePolicyRepository)
+        public InsurancePolicyService(IInsurancePolicyRepository insurancePolicyRepository)
         {
-            _iInsurancePolicyRepository = InsurancePolicyRepository;
+            _iInsurancePolicyRepository = insurancePolicyRepository;
         }
 
         public async Task<InsurancePolicy> CreateInsurancePolicy(InsurancePolicy insurancePolicy)
