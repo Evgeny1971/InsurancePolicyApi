@@ -60,7 +60,7 @@ namespace InsuranceApiManagement
                 }
                 app.UseStaticFiles();
                 app.UseCors();
-                app.UseHttpsRedirection();
+                //app.UseHttpsRedirection();
                 app.UseRouting();
                 app.UseSwagger();
                 app.UseSwaggerUI(c =>

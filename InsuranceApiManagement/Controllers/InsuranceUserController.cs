@@ -87,12 +87,17 @@ namespace InsuranceApiManagement.Controllers
         }
 
         [HttpGet]
-        [Route("get-all-policies")]
+        [Route("get-all-users")]
         public async Task<IEnumerable<InsuranceUser>> GetAllUsers()
         {
             return _iInsuranceUserService.GetAllInsuranceUsers();
         }
 
-        
+        [HttpGet]
+        [Route("get-all")]
+        public string GetAll()
+        {
+            return "Test";
+        }
     }
 }
